@@ -1,0 +1,20 @@
+---
+title: "Appex 11"
+author: "Lucy D'Agostino McGowan"
+output: github_document
+date: '2022-04-04'
+---
+
+```{r, message = FALSE, warning = FALSE}
+library(tidyverse)
+library(survey)
+library(broom)
+library(rsample)
+library(PSW)
+#install.packages("rsample")
+#install.packages("PSW")
+```
+
+```{r, message = FALSE, warning = FALSE}
+coffee_town_df <- read_csv("coffee_town_df.csv")
+```
